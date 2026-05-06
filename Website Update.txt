@@ -1,0 +1,74 @@
+Website Update
+
+maka edit ug price ang admin dashboard and maka set ug date and time kung kanosa sya mag change sa pricing
+
+
+Enhance the Fuel Prices section UI to make it more visually engaging and avoid empty or blank spaces.
+
+
+add a delete feature for scheduled gasoline price updates in the Admin Dashboard.
+
+add an announcement feature to the Customer and Clerk Dashboard.
+
+improve the UI/UX of the "Manage Orders" section in the Clerk Dashboard without changing any existing logic or features.
+
+improve the Clerk Dashboard UI layout so that there are no empty or unused spaces. All sections should be properly aligned and fully utilized to make the interface look complete and balanced.
+
+
+improve the "Edit User" UI in the Admin Dashboard to make it easier and more efficient to use, without requiring the admin to scroll up to access important parts of the form.
+
+
+Order cancellation / rescheduling
+Let customers cancel or change pickup time while the order is still Pending. Stock should be returned automatically if canceled.
+
+Receipt or invoice generation
+Add a printable/downloadable receipt for each order showing order ID, fuel type, liters, unit price, total amount, pickup time, and status.
+
+Customer order tracking page
+Add a simple tracking search by Order ID, useful for customers who want to check if an order is Pending, Ready, or Claimed.
+
+SMS or email notifications
+Notify customers when:
+
+
+
+Inventory history
+Right now stock can be increased and decremented, but there is no clear audit trail. Add stock movement logs:
+
+Restock
+Order deduction
+Canceled order return
+Manual adjustment
+Low stock threshold settings
+Instead of hardcoding low stock under 3000L, let admins configure the threshold per fuel type.
+
+To fix a stock consistency issue in our system where multiple orders may exceed the available fuel balance when processed at the same time.
+
+
+Reports export
+Add CSV/PDF exports for:
+
+Daily sales
+Weekly/monthly revenue
+Fuel demand by type
+Claimed vs pending orders
+Inventory movement
+Admin activity logs
+Track sensitive actions like user edits, price scheduling, stock updates, and account deactivation. This is very useful for accountability.
+
+Pickup queue view for clerks
+A dedicated clerk screen sorted by pickup time, with quick buttons:
+
+Mark Ready
+Mark Claimed
+No-show
+View receipt
+Pickup date support
+Current orders use pickup time slot only. Add a pickup date so customers can pre-order for a future day.
+
+Dashboard improvements
+Replace the hardcoded trend labels like +12% Today with real computed trends based on previous day/week/year.
+
+add a notification feature to our website that alerts the clerk or admin whenever a new order is placed
+
+rename and rebrand the entire system to ‘DMK Fuel Management System’.
